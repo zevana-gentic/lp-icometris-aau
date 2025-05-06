@@ -806,8 +806,8 @@ video {
   width: 0.125rem;
 }
 
-.w-1\/2 {
-  width: 50%;
+.w-10 {
+  width: 2.5rem;
 }
 
 .w-20 {
@@ -852,6 +852,18 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-80 {
+  width: 20rem;
+}
+
+.w-2\/4 {
+  width: 50%;
+}
+
+.w-3\/4 {
+  width: 75%;
 }
 
 .max-w-3xl {
@@ -920,12 +932,12 @@ video {
   list-style-position: inside;
 }
 
-.list-disc {
-  list-style-type: disc;
-}
-
 .list-decimal {
   list-style-type: decimal;
+}
+
+.list-disc {
+  list-style-type: disc;
 }
 
 .grid-cols-1 {
@@ -1217,45 +1229,28 @@ video {
   padding-bottom: 1.5rem;
 }
 
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
 .pb-16 {
   padding-bottom: 4rem;
-}
-
-.pb-\[30px\] {
-  padding-bottom: 30px;
-}
-
-.pt-\[200px\] {
-  padding-top: 200px;
-}
-
-.ps-10 {
-  padding-inline-start: 2.5rem;
-}
-
-.ps-5 {
-  padding-inline-start: 1.25rem;
-}
-
-.pb-5 {
-  padding-bottom: 1.25rem;
-}
-
-.pt-10 {
-  padding-top: 2.5rem;
 }
 
 .pb-20 {
   padding-bottom: 5rem;
 }
 
-.pt-16 {
-  padding-top: 4rem;
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
+
+.pb-\[30px\] {
+  padding-bottom: 30px;
+}
+
+.ps-5 {
+  padding-inline-start: 1.25rem;
+}
+
+.pt-\[200px\] {
+  padding-top: 200px;
 }
 
 .text-left {
@@ -1577,18 +1572,6 @@ video {
 
   .md\:max-w-md {
     max-width: 28rem;
-  }
-
-  .md\:max-w-2xl {
-    max-width: 42rem;
-  }
-
-  .md\:max-w-6xl {
-    max-width: 72rem;
-  }
-
-  .md\:max-w-xl {
-    max-width: 36rem;
   }
 
   .md\:grid-cols-3 {
